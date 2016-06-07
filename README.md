@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ~~1.hello world~~
 2.input fields
 3.make a class to construct user logins
