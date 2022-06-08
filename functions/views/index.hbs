@@ -1,0 +1,22 @@
+<html>
+    <body>
+      <h1>{{db_result.firstname}}</h1>
+      <h1>{{db_result.lastname}}</h1>
+      <form action="/insert_data" method="post" >
+     <fieldset>
+       <legend>Portal Entrance</legend>
+       First name:<br>
+        <input type="text" name="firstname" >
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname">
+        <br>
+        Realtime change:<br>
+        <input onchange ="updatePost(event)">
+        <br>
+         <br><br>
+         <input type="submit" value="Submit">
+        </fieldset>
+     </form>
+    </body>
+</html>
